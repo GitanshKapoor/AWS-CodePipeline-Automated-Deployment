@@ -29,6 +29,10 @@ A MySQL **dump file** is provided at:
 
 - `src/main/resources/db_backup.sql`
 
+Additionally, database connection details for **build/deployment** are managed via the `buildspec.yaml` file is provided at:
+
+- `aws-files/buildspec.yaml`
+
 ### 📥 Importing the Database
 
 Use the following command to import the dump into your MySQL database:
